@@ -2,9 +2,10 @@
 
     #main_foot{
         display: block;
-        width: 92%;
+        width: 95%;
     }
-.div_foot{
-    width: 100%;
+#div_foot3,#div_foot2,#div_foot1{
+    width:100%;
 }
+
 }
