@@ -6,12 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ambulance Service</title>
+  <link rel="stylesheet" href="res.css">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -26,45 +31,45 @@
         <a class="navbar-brand" href="#">Hidden brand</a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li"  aria-current="page" href="#">Home</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
 
             <select name="Services" id="">
               <option value="">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Our Service 1</a>
+                <a class="nav-link active" id="nav_li" aria-current="page" href="#">Our Service 1</a>
               </option>
 
               <option value="">
-                <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Our Service 2</a>
-                  </option>
+                <a class="nav-link active" id="nav_li" aria-current="page" href="#">Our Service 2</a>
+              </option>
 
-                  <option value="">
-                    <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Our Service 3</a>
-                      </option>
+              <option value="">
+                <a class="nav-link active" id="nav_li" aria-current="page" href="#">Our Service 3</a>
+              </option>
 
-                      <option value="">
-                        <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Our Service 4</a>
-                          </option>
+              <option value="">
+                <a class="nav-link active" id="nav_li" aria-current="page" href="#">Our Service 4</a>
+              </option>
             </select>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Our Location</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">Our Location</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Gallery</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">About Us</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Contact Us</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">Pay online</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">Pay online</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active"  id="nav_li" aria-current="page" href="#">FAQS</a>
+            <a class="nav-link active" id="nav_li" aria-current="page" href="#">FAQS</a>
           </li>
 
         </ul>
@@ -82,7 +87,15 @@
   </a>
 
   <hr>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62385.73452854772!2d79.03423291693178!3d12.240938463841456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bacc0852cd3d6cd%3A0x74002b16e5bac856!2sTiruvannamalai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1652447687805!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  <iframe id="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62385.73452854772!2d79.03423291693178!3d12.240938463841456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bacc0852cd3d6cd%3A0x74002b16e5bac856!2sTiruvannamalai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1652447687805!5m2!1sen!2sin"
+    width="80%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
   <footer>
     <div id="main_foot" class="main_foot">
       <div id="div_foot1" class="div_foot">
@@ -103,7 +116,7 @@
         <form id="footer_form">
 
           <span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif;">Get the latest news &amp; offers</span>
-<br><br>
+          <br><br>
           <input type="email" name="email" id="footer_email" class="_1SOvY has-custom-focus" value=""
             placeholder="Email Address*" required="" pattern="^.+@.+\.[a-zA-Z]{2,63}$" maxlength="250"
             aria-label="Email Address*">

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 360px) {
+
+    #main_foot{
+        display: block;
+        width: 92%;
+    }
+.div_foot{
+    width: 100%;
+}
+}

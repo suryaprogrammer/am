@@ -49,3 +49,9 @@ padding-left: 5px;
     text-align: center;
     margin: auto;
 }
+
+#map{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
