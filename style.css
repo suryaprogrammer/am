@@ -52,8 +52,13 @@ padding-left: 5px;
 
 #map{
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
+    /* text-align: center; */
     align-items: center;
+}
+#divmap{
+    width: 100%;
+    text-align: center;
 }
 
 #call{
