@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body onload="as()">
 
   <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -114,13 +114,13 @@
 
   <!-- ssssssssssssssssssssssssssssearch            bbbbbbbbbbbbbbbar -->
 
-  <table id="stable">
+  <table  id="stable">
 
     <tr>
-      <td>adc</td>
+      <td><a href="#">adc</a> </td>
     </tr>
     <tr>
-      <td>agl</td>
+      <td><a href="#">art</a> </td>
     </tr>
     <tr>
       <td>adc</td>
@@ -211,7 +211,10 @@
         <a href="tel:8104608876">call now</a>
     </button> -->
   <script>
-
+ const as = () =>{
+      let table = document.getElementById("stable");
+table.style.display="none";
+      }
 
 // search algoritham
 
@@ -219,7 +222,8 @@
       let value = document.getElementById("nav_search").value.toUpperCase();
       console.log(value)
 
-      
+     
+
       let table = document.getElementById("stable");
       let tr = table.getElementsByTagName("tr");
 

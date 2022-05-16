@@ -89,3 +89,19 @@ padding-left: 5px;
     100%  { transform: rotate(-30deg);}
     
   }
+
+
+
+  #stable tr td {
+      border: 2px solid black;
+      position: relative;
+      padding-left: 70px;
+      padding-right: 70px;
+      padding-top: 10px;
+
+  }
+  #stable{
+      position: absolute;
+      left: 78%;
+      top: 60px;
+  }
